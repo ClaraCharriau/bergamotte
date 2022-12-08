@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-brique);
+    width: 100vw;
+    height: 100px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+.header a {
+    color: white;
+}
+
+.header a:hover {
+    font-weight: 700;
+}
+
+nav {
+    gap: 50px;
+    font-size: 20px;
+}
+
+.header-logo {
+    gap: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.svg-logo, .svg-basket {
+    fill: var(--color-creme);
+}
