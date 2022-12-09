@@ -1,0 +1,60 @@
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 50px 0 20px;
+}
+
+.homepageSection img, .homepageSection div {
+    width: 50%;
+}
+
+.homepageSection {
+    gap: 80px;
+}
+
+.homepageSection:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.homepageSection div {
+    padding-right: 133px;
+}
+
+.homepageSection:nth-child(odd) div {
+    padding-right: 0;
+    padding-left: 133px;
+}
+
+img {
+    object-fit: cover;
+    width: 50vw;
+}
+.landingText {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.landingText p {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: var(--font-lato);
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.sectionButton {
+    background: var(--color-brique);
+    border-radius: 50px;
+    padding: 25px 65px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.sectionButton:hover {
+    cursor: pointer;
+    background: rgba(182, 107, 85, 0.5);
+}
