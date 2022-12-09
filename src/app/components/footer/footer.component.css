@@ -18,7 +18,7 @@ nav {
 
 nav a {
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-playfair);
     font-weight: 400;
     font-size: 20px;
 }
@@ -36,14 +36,14 @@ input {
 }
 
 input::placeholder {
-    font-family: 'Lato', sans-serif;
+    font-family: var(--font-lato);
     font-weight: 300;
     font-size: 16px;
 }
 
 .footer-newsletter-button {
     color: var(--color-dark-gray);
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-playfair);
     font-weight: 700;
     font-size: 20px;
     padding: 20px;
@@ -52,6 +52,7 @@ input::placeholder {
     border: 0;
     position: absolute;
     right: 25px;
+    top: 5px;
 }
 
 .footer-newsletter-button:hover {
@@ -64,7 +65,7 @@ input::placeholder {
 }
 
 .copyright {
-    font-family: 'Lato', sans-serif;
+    font-family: var(--font-lato);
     font-weight: 300;
     font-size: 16px;
     text-align: center;
