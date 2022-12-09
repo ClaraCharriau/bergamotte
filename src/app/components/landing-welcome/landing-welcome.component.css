@@ -1,0 +1,43 @@
+h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3 {
+    margin: 50px 0 20px;
+}
+
+.homepageLanding {
+    padding: 70px 50px;
+    gap: 80px;
+}
+
+.landingText {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.landingText p {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: var(--font-lato);
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.ctaButton {
+    background: var(--color-green);
+    border-radius: 50px;
+    padding: 25px 65px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.ctaButton:hover {
+    cursor: pointer;
+    background-color: rgba(121, 153, 136, 0.5);
+}

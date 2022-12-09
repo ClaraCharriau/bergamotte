@@ -4,7 +4,7 @@
     background-color: var(--color-brique);
     width: 100vw;
     height: 100px;
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-playfair);
     font-weight: 400;
     padding: 0 50px;
 }
@@ -24,7 +24,7 @@ nav {
 
 .header-logo {
     gap: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-playfair);
 }
 
 .svg-logo, .svg-basket {
