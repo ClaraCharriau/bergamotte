@@ -1,0 +1,18 @@
+h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.main {
+    flex-direction: column;
+    align-items: center;
+    gap: 125px;
+    margin: 130px 0;
+}
+
+.productList {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    width: 80vw;
+}
