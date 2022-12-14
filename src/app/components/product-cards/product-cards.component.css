@@ -7,6 +7,8 @@
 }
 
 .productCard img {
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -33,10 +35,16 @@
     border: 1px solid var(--color-brique);
     position: absolute;
     bottom: -20px;
+    right: 60px;
 }
 
 .productCard button:hover {
     background-color: var(--color-creme);
     color: var(--color-brique);
     cursor: pointer;
+}
+
+/* Prix en dessous de 20euros */
+.isCheap {
+    color: green;
 }
