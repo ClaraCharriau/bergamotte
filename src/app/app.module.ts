@@ -13,6 +13,7 @@ import { ProductSelectionHomepageComponent } from './components/product-selectio
 import { SectionHomepageLastComponent } from './components/section-homepage-last/section-homepage-last.component';
 import { VisitedProductsComponent } from './components/visited-products/visited-products.component';
 import { VisitedProductsCardsComponent } from './components/visited-products-cards/visited-products-cards.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { VisitedProductsCardsComponent } from './components/visited-products-car
     SectionHomepageLastComponent,
     VisitedProductsComponent,
     VisitedProductsCardsComponent,
+    CounterComponent,
   ],
   imports: [
     BrowserModule
