@@ -1,0 +1,12 @@
+h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 300px;
+}
+
+.visibility {
+    display: none;
+}

@@ -13,6 +13,12 @@ import { ProductSelectionHomepageComponent } from './components/product-selectio
 import { SectionHomepageLastComponent } from './components/section-homepage-last/section-homepage-last.component';
 import { VisitedProductsComponent } from './components/visited-products/visited-products.component';
 import { VisitedProductsCardsComponent } from './components/visited-products-cards/visited-products-cards.component';
+import { CounterComponent } from './components/counter/counter.component';
+import { DenonciatorComponent } from './components/denonciator/denonciator.component';
+import { AppRootingModule } from './app-rooting.module';
+import { HomepageComponent } from './pages/homepage/homepage.component';
+import { CategoryComponent } from './pages/category/category.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -28,9 +34,15 @@ import { VisitedProductsCardsComponent } from './components/visited-products-car
     SectionHomepageLastComponent,
     VisitedProductsComponent,
     VisitedProductsCardsComponent,
+    CounterComponent,
+    DenonciatorComponent,
+    HomepageComponent,
+    CategoryComponent,
+    ContactComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRootingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
