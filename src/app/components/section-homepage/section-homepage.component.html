@@ -1,0 +1,8 @@
+<section *ngFor="let item of sections" class="homepageSection flex">
+    <img src="{{ item.illustration }}" alt="{{ item.illustrationAlt }}">
+    <div class="landingText flex">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.paragraph }}</p>
+        <button class="sectionButton">{{ item.button }}</button>
+    </div>
+</section>
