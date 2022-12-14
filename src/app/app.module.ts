@@ -10,6 +10,7 @@ import { LandingWelcomeComponent } from './components/landing-welcome/landing-we
 import { SectionHomepageComponent } from './components/section-homepage/section-homepage.component';
 import { ThreeProductsComponent } from './components/three-products/three-products.component';
 import { ProductSelectionHomepageComponent } from './components/product-selection-homepage/product-selection-homepage.component';
+import { SectionHomepageLastComponent } from './components/section-homepage-last/section-homepage-last.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ProductSelectionHomepageComponent } from './components/product-selectio
     SectionHomepageComponent,
     ThreeProductsComponent,
     ProductSelectionHomepageComponent,
+    SectionHomepageLastComponent,
   ],
   imports: [
     BrowserModule
