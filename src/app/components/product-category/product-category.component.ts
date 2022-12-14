@@ -7,5 +7,6 @@ import { Product, PRODUCTS } from 'src/app/mocks/product-card.mocks';
   styleUrls: ['./product-category.component.css']
 })
 export class ProductCategoryComponent {
+  categoryTitle: string = "Plante d'intérieur";
   products: Product[] = PRODUCTS;
 }

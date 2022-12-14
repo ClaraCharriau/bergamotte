@@ -1,0 +1,19 @@
+.visited-products {
+    background-color: var(--color-green);
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 120px 0;
+}
+
+.visited-products h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.container-three-products-cards {
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}

@@ -1,6 +1,6 @@
 import { Product } from "./product-card.mocks";
 
-export const THREEPRODUCTS: Product[] = [
+export const VISITEDPRODUCTS: Product[] = [
 	{
         id: 1,
 		visibility: true,
@@ -11,7 +11,7 @@ export const THREEPRODUCTS: Product[] = [
         productPrice: 50,
         productStock: 'Ajouter au panier',
         slug: "#",
-        isAvailable: true,
+        isAvailable: true
 	},
     {
         id: 2,
@@ -23,7 +23,7 @@ export const THREEPRODUCTS: Product[] = [
         productPrice: 50,
         productStock: 'Ajouter au panier',
         slug: "#",
-        isAvailable: true,
+        isAvailable: true
 	},
     {
         id: 3,
@@ -35,6 +35,6 @@ export const THREEPRODUCTS: Product[] = [
         productPrice: 50,
         productStock: 'Ajouter au panier',
         slug: "#",
-        isAvailable: true,
+        isAvailable: true
 	}
 ];

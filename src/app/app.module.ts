@@ -11,6 +11,8 @@ import { SectionHomepageComponent } from './components/section-homepage/section-
 import { ThreeProductsComponent } from './components/three-products/three-products.component';
 import { ProductSelectionHomepageComponent } from './components/product-selection-homepage/product-selection-homepage.component';
 import { SectionHomepageLastComponent } from './components/section-homepage-last/section-homepage-last.component';
+import { VisitedProductsComponent } from './components/visited-products/visited-products.component';
+import { VisitedProductsCardsComponent } from './components/visited-products-cards/visited-products-cards.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { SectionHomepageLastComponent } from './components/section-homepage-last
     ThreeProductsComponent,
     ProductSelectionHomepageComponent,
     SectionHomepageLastComponent,
+    VisitedProductsComponent,
+    VisitedProductsCardsComponent,
   ],
   imports: [
     BrowserModule
