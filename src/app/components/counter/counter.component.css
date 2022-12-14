@@ -1,0 +1,22 @@
+
+.counterBtn {
+    border-radius: 50px;
+    font-size: 40px;
+    background-color: var(--color-green);
+    border: 0;
+    padding: 20px 40px;
+}
+
+.unactiveBtn {
+    opacity: 0.5;
+}
+
+.counterBtn:hover {
+    cursor: pointer;
+}
+
+.counterResult {
+    font-size: 40px;
+    padding: 30px;
+    font-family: var(--font-lato);
+}
