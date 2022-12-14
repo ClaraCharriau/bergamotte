@@ -1,5 +1,5 @@
 <section class="counterContainer flex">
-<button [class.unactiveBtn]="this.counter <= 0" (click)="decrease()" class="counterBtn">-</button>
+<button [class.unactiveBtn]="this.counter <= 0" (click)="decrease()" [disabled]="this.counter <= 0" class="counterBtn">-</button>
 <p class="counterResult"> {{ counter }} </p>
 <button (click)="increase()" class="counterBtn">+</button>
 </section>

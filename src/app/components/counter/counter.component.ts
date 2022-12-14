@@ -17,6 +17,7 @@ export class CounterComponent {
     if (this.counter > 0) {
       this.counter--
     }
+
   }
 
 }
