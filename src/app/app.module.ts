@@ -21,6 +21,7 @@ import { CategoryComponent } from './pages/category/category.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CartSectionComponent } from './components/cart-section/cart-section.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { CartComponent } from './pages/cart/cart.component';
     ContactComponent,
     CartSectionComponent,
     CartComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
