@@ -10,15 +10,14 @@ export class DenonciatorComponent {
 
   classmates: Person[] = CLASSMATES;
 
-  randomPerson: {} = {
+  randomPerson: Person = {
     id: 0,
-    lastName: "Qui",
+    lastName: "Une personne",
     genre: "Femme",
   };
 
-  getRandomPerson() {
+  getRandomPerson(): {} {
     this.randomPerson = CLASSMATES[Math.floor(Math.random()* CLASSMATES.length)];
-    console.log(this.randomPerson);
     return this.randomPerson
   }
 
