@@ -19,6 +19,7 @@ import { AppRootingModule } from './app-rooting.module';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { CartSectionComponent } from './components/cart-section/cart-section.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     HomepageComponent,
     CategoryComponent,
     ContactComponent,
+    CartSectionComponent,
   ],
   imports: [
     BrowserModule,
