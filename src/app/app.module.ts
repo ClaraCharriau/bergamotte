@@ -20,6 +20,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { CartComponent } from './pages/cart/cart.component';
     CategoryComponent,
     ContactComponent,
     CartComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
