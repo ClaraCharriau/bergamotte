@@ -19,6 +19,7 @@ import { AppRootingModule } from './app-rooting.module';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { CartSectionComponent } from './components/cart-section/cart-section.component';
 import { CartComponent } from './pages/cart/cart.component';
 
 @NgModule({
@@ -40,6 +41,7 @@ import { CartComponent } from './pages/cart/cart.component';
     HomepageComponent,
     CategoryComponent,
     ContactComponent,
+    CartSectionComponent,
     CartComponent,
   ],
   imports: [
